@@ -8,11 +8,13 @@
 /* CONTEINERS */
 
 .container {
+
     max-width: 1170px;
     margin: auto;
 }
 
 .row {
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,6 +31,7 @@
 /* DA 576px A 767px */
 
 @media screen and (min-width:576px) {
+    
     .col-sm {
 
         flex-grow: 1;
@@ -176,7 +179,7 @@
 @media screen and (min-width:768px) {
 
     .col-md {
-        
+
         flex-grow: 1;
         flex-basis: 0;
         max-width: 100%;
